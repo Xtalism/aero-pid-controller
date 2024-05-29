@@ -27,17 +27,3 @@ SolidWorks 3D modeling software.
 Use any other Arduino board as long as SDA and SCL pins are available.
 
 ![schematic](img/schematic.png)
-
-Plotting error, variable of control (PID output) and setpoint signals.
-
-    Serial.print(",");
-    Serial.print(Total_angle[1]);
-    Serial.print(",");
-    Serial.print(error);
-    Serial.print(",");
-    Serial.print(PID);
-    Serial.print(",");
-    Serial.println(previous_error);
-    Serial.print(",");
-
-![plot](img/plot.png)
