@@ -5,7 +5,7 @@ In order for the project to work, make sure to calibrate both ESC before running
     #include <Servo.h>
     #include <Wire.h>
 
-To read MPU's raw accelerometer and gyroscope data, we must register our MPU's hex addresses. Just as follows:
+To read MPU6050's raw accelerometer and gyroscope data, we must register our MPU's hex addresses. Just as follows:
 
     // Accelerometer raw data
     Acc_rawX = Wire.read() << 8 | Wire.read();
