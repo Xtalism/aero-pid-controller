@@ -7,7 +7,7 @@ In order for the project to work, make sure to calibrate both ESC before running
     #include <Servo.h>
     #include <Wire.h>
 
-I used bitwise left shift operator to read MPU's raw accelerometer and gyroscope data (hexadecimal addresses, which are given in the MPU6050's [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)). 
+To read MPU's raw accelerometer and gyroscope data, we must register our MPU's hex addresses. You'll be able to find them on the [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)). 
 
     // Accelerometer raw data
     Acc_rawX = Wire.read() << 8 | Wire.read();
