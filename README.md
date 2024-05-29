@@ -7,16 +7,17 @@ In order for the project to work, make sure to calibrate both ESC before running
     #include <Servo.h>
     #include <Wire.h>
 
-To read MPU's raw accelerometer and gyroscope data, we must register our MPU's hex addresses. You'll be able to find them on the [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)). 
+To read MPU's raw accelerometer and gyroscope data, we must register our MPU's hex addresses. Just as follows:
 
     // Accelerometer raw data
     Acc_rawX = Wire.read() << 8 | Wire.read();
     Acc_rawY = Wire.read() << 8 | Wire.read();
     Acc_rawZ = Wire.read() << 8 | Wire.read();
-
     // Gyro raw data
     Gyr_rawX = Wire.read() << 8 | Wire.read();
     Gyr_rawY = Wire.read() << 8 | Wire.read();
+
+If you'd like to make any changes, you can check the MPU6050's [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf) anytime you want. 
 
 The structure was created using SolidWorks 3D modeling software. I didn't make any mechanical simulation because I thought it was unnecessary.
 
