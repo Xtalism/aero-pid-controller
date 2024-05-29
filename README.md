@@ -24,7 +24,7 @@ SolidWorks 3D modeling software.
 
 ![structure](img/render.png)
 
-Prototype electronic schematic built on Fritzing. Arduino Mega 2560 was used but you can still use any other Arduino board as long as SDA and SCL pins are available.
+Use any other Arduino board as long as SDA and SCL pins are available.
 
 ![schematic](img/schematic.png)
 
