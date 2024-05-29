@@ -15,10 +15,10 @@ The structure was created using SolidWorks 3D modeling software. I didn't make a
 
 ![structure](img/render.png)
 
-I used Fritzing to build a protoype schematic. I had to add some figures from Fritzing. I used Arduino Mega 2560 but you can still use any other Arduino board as long as SDA and SCL pins are available.
+I used Fritzing to build a protoype schematic. I had to add some figures from Fritzing forums. I used Arduino Mega 2560 but you can still use any other Arduino board as long as SDA and SCL pins are available.
 
 ![schematic](img/schematic.png)
 
-This has the main function to compare my error with my variable of control (PID output) and the actual setpoint I wanted to reach, which was a great success all along.
+I plotted the my error, variable of control (PID output) and the actual setpoint signal.
 
 ![plot](img/plot.png)
