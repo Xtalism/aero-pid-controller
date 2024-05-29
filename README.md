@@ -20,7 +20,7 @@ To read MPU's raw accelerometer and gyroscope data, we must register our MPU's h
 
 If you'd like to make any changes, you can check the MPU6050's [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf) anytime you want. 
 
-SolidWorks 3D modeling software.
+Ideal modeled Aero PID Controller structure.
 
 ![structure](img/render.png)
 
