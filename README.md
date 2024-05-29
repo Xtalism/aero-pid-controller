@@ -24,4 +24,4 @@ Ideal aero PID controller structure.
 
 ![schematic](img/schematic.png)
 
-Use any other Arduino board as long as SDA and SCL pins are available.
+We can use any Arduino board, as long as SDA and SCL pins are available.
