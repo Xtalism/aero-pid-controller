@@ -20,14 +20,14 @@ To read MPU's raw accelerometer and gyroscope data, we must register our MPU's h
 
 If you'd like to make any changes, you can check the MPU6050's [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf) anytime you want. 
 
-The structure was created using SolidWorks 3D modeling software. I didn't make any mechanical simulation because I thought it was unnecessary.
+SolidWorks 3D modeling software.
 
 ![structure](img/render.png)
 
-I used Fritzing to build a protoype schematic. I had to add some figures from Fritzing forums. I used Arduino Mega 2560 but you can still use any other Arduino board as long as SDA and SCL pins are available.
+Prototype electronic schematic built on Fritzing. Arduino Mega 2560 was used but you can still use any other Arduino board as long as SDA and SCL pins are available.
 
 ![schematic](img/schematic.png)
 
-I plotted my error, variable of control (PID output) and my setpoint signal.
+Plotting error, variable of control (PID output) and setpoint signal.
 
 ![plot](img/plot.png)
