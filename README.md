@@ -7,7 +7,16 @@ In order for the project to work, make sure to calibrate both ESC before running
     #include <Servo.h>
     #include <Wire.h>
 
-I wrote my code making use of the bitwise left shift operator to read MPU's raw accelerometer and gyroscope data; with each of its hexadecimal addresses (which is given in the MPU6050's [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)). 
+I used bitwise left shift operator to read MPU's raw accelerometer and gyroscope data (hexadecimal addresses, which are given in the MPU6050's [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)). 
+
+    // Accelerometer raw data
+    Acc_rawX = Wire.read() << 8 | Wire.read();
+    Acc_rawY = Wire.read() << 8 | Wire.read();
+    Acc_rawZ = Wire.read() << 8 | Wire.read();
+
+    // Gyro raw data
+    Gyr_rawX = Wire.read() << 8 | Wire.read();
+    Gyr_rawY = Wire.read() << 8 | Wire.read();
 
 The structure was created using SolidWorks 3D modeling software. I didn't make any mechanical simulation because I thought it was unnecessary.
 
