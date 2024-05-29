@@ -7,7 +7,9 @@ In order for the project to work, make sure to calibrate both ESC before running
     #include <Servo.h>
     #include <Wire.h>
 
-I wrote my code making use of the bitwise left shift operator to read MPU's raw accelerometer and gyroscope data, depending of the hexadecimal direction (which is given in the MPU6050's [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)). You can also use the [MPU6050](https://www.arduino.cc/reference/en/libraries/mpu6050/) library, but I wanted to learn how to handle memory direction between the microcontroller and the sensor (so I can practice my low programming language knowledge).
+I wrote my code making use of the bitwise left shift operator to read MPU's raw accelerometer and gyroscope data, depending of the hexadecimal direction (which is given in the MPU6050's [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)). 
+
+You can also use the [MPU6050](https://www.arduino.cc/reference/en/libraries/mpu6050/) library, but I wanted to learn how to handle memory direction between the microcontroller and the sensor (so I can practice my low programming language knowledge).
 
 The structure was created using SolidWorks 3D modeling software. I didn't make any mechanical simulation because I thought it was unnecessary.
 
