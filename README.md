@@ -20,10 +20,10 @@ To read MPU's raw accelerometer and gyroscope data, we must register our MPU's h
 
 If you'd like to make any changes, you can check the MPU6050's [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf) anytime you want. 
 
-Ideal Aero PID Controller structure.
-
 ![structure](img/render.png)
 
-Use any other Arduino board as long as SDA and SCL pins are available.
+Ideal Aero PID Controller structure.
 
 ![schematic](img/schematic.png)
+
+Use any other Arduino board as long as SDA and SCL pins are available.
