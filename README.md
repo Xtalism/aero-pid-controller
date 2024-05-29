@@ -6,3 +6,6 @@ The structure was created using SolidWorks 3D modeling software. We didn't make 
 
 ![structure](img/render.png)
 
+The plot I did has the function to compare my error with my variable of control (PID output) and the actual setpoint I wanted to reach, which was a great success all allong.
+
+![plot](img/plot.png)
