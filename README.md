@@ -15,7 +15,7 @@ The structure was created using SolidWorks 3D modeling software. I didn't make a
 
 ![structure](img/render.png)
 
-Using Fritzing the electronic schematic diagram was made. I had to add some figures from the Fritzing community so I can build up the whole circuit. I used the Arduino Mega 2560 but you can use any other Arduino board as long as SDA and SCL pins are available.
+I used Fritzing to build a protoype schematic. I had to add some figures from the Fritzing community so I can build up the whole circuit. I used the Arduino Mega 2560 but you can use any other Arduino board as long as SDA and SCL pins are available.
 
 ![schematic](img/schematic.png)
 
