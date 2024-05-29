@@ -13,6 +13,7 @@ To read MPU's raw accelerometer and gyroscope data, we must register our MPU's h
     Acc_rawX = Wire.read() << 8 | Wire.read();
     Acc_rawY = Wire.read() << 8 | Wire.read();
     Acc_rawZ = Wire.read() << 8 | Wire.read();
+    
     // Gyro raw data
     Gyr_rawX = Wire.read() << 8 | Wire.read();
     Gyr_rawY = Wire.read() << 8 | Wire.read();
