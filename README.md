@@ -19,6 +19,6 @@ I used Fritzing to build a protoype schematic. I had to add some figures from Fr
 
 ![schematic](img/schematic.png)
 
-I plotted the my error, variable of control (PID output) and the actual setpoint signal.
+I plotted my error, variable of control (PID output) and my setpoint signal.
 
 ![plot](img/plot.png)
