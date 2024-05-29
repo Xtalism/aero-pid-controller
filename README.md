@@ -1,7 +1,5 @@
 # Aero PID Controller
 
-PID controller using two brushless motors with its respective ESC, and an Arduino Mega 2560.
-
 In order for the project to work, make sure to calibrate both ESC before running the main code. You gotta make sure you have installed the [Servo](https://www.arduino.cc/reference/en/libraries/servo/) and [Wire](https://www.arduino.cc/reference/en/language/functions/communication/wire/) Arduino libraries.
     
     #include <Servo.h>
