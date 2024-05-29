@@ -6,13 +6,9 @@ The structure was created using SolidWorks 3D modeling software. We didn't make 
 
 ![structure](img/render.png)
 
-Using Fritzing the electronic schematic diagram was made. I had to add some figures from the Fritzing community so I can build up the whole circuit.
+Using Fritzing the electronic schematic diagram was made. I had to add some figures from the Fritzing community so I can build up the whole circuit. I used the Arduino Mega 2560 but you can use any other Arduino board as long as SDA and SCL pins are available.
 
 ![schematic](img/schematic.png)
-
-I used the Arduino Mega 2560 but you can use any other Arduino board as long as SDA and SCL pins are available.
-
-![pinout](img/pinout.png)
 
 This has the main function to compare my error with my variable of control (PID output) and the actual setpoint I wanted to reach, which was a great success all along.
 
