@@ -4,4 +4,4 @@ PID controller using two brushless motors with its respective ESC, and an Arduin
 
 The structure was created using SolidWorks 3D modeling software
 
-![structure](img/grafica.png)
+![structure](img/render.png)
