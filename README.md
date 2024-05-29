@@ -2,35 +2,14 @@
 
 PID controller using two brushless motors with its respective ESC, and an Arduino Mega 2560.
 
-In order for the project to work, make sure to calibrate both ESC using the code given in the repository:
+In order for the project to work, make sure to calibrate both ESC before running the main code. You gotta make sure you have installed the [Servo](https://www.arduino.cc/reference/en/libraries/servo/) and [Wire](https://www.arduino.cc/reference/en/language/functions/communication/wire/) Arduino libraries.
     
     #include <Servo.h>
+    #include <Wire.h>
 
-    #define RIGHT_ESC 8
-    #define LEFT_ESC 9
+I wrote my code making use of the bitwise left shift operator to read MPU's raw accelerometer and gyroscope data, depending of the hexadecimal direction (which is given in the MPU6050's [datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)). You can also use the [MPU6050](https://www.arduino.cc/reference/en/libraries/mpu6050/) library, but I wanted to learn how to handle memory direction between the microcontroller and the sensor (so I can practice my low programming language knowledge).
 
-    Servo ESC8;
-    Servo ESC9;
-
-    void setup()
-    {
-      ESC8.attach(RIGHT_ESC, 1000, 2000);
-      ESC9.attach(LEFT_ESC, 1000, 2000);
-      ESC8.write(180);
-      ESC9.write(180);
-      delay(5000);
-      ESC8.write(0);
-      ESC9.write(0);
-      delay(2000);
-      ESC8.write(10);
-      ESC9.write(10);
-    }
-    
-    void loop()
-    {
-    }
-
-The structure was created using SolidWorks 3D modeling software. We didn't make any mechanical simulation because I thought it was no necessary.
+The structure was created using SolidWorks 3D modeling software. I didn't make any mechanical simulation because I thought it was unnecessary.
 
 ![structure](img/render.png)
 
